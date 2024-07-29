@@ -5,3 +5,4 @@
 getgenv().AutoFindingSpaceCurse = true;
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/SpaceCurse/main/AutoFinder"))();
 ```
+#### Paste in your autoexe file.
