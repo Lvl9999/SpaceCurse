@@ -27,7 +27,7 @@ task.spawn(function()
                 if not workspace.Living:FindFirstChild("Space Curse") then
                     if not getgenv().ServerHopped then getgenv().ServerHopped = true
                         BoredLibrary.prompt("Sakura Hub 🌸","Space Curse Is Not Here...",0.75);BoredLibrary.prompt("Sakura Hub 🌸","Teleporting to ServerList",0.5);
-                        game:GetService("TeleportService"):Teleport(ServerList, game.Players.LocalPlayer);
+                        game:GetService("TeleportService"):Teleport(ServerList,game.Players.LocalPlayer);
                     end
                 else
                     getgenv().AutoFindingSpaceCurse = false;
